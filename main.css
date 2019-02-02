@@ -1,0 +1,115 @@
+#canvas {
+overflow:hidden;
+}
+img {
+  vertical-align: middle;
+  height: 100%;
+  z-index: 10;
+  overflow: hidden;
+  /* position: relative; */
+}
+
+/*  Header Styles */
+.head {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 50px;
+  z-index: 100;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.head h1 {
+
+    text-transform: uppercase;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin: -0.3em;
+}
+.head h1 a {
+  color: rgb(255, 255, 255);
+}
+.head ul {
+  margin: -0.5em;
+}
+
+.nav-link:not(.disabled) {
+  color: rgba(255, 255, 255);
+}
+.head.dark * {
+  color: rgb(17, 17, 17);
+}
+
+.nav-link:not(.disabled):hover {
+  opacity: .5;
+}
+.content {
+    flex: 1;
+    overflow: auto;
+    position: relative;
+    padding-bottom: 16vh;
+}
+
+.card {
+    box-shadow: 0 1px 2px 2px rgba(0, 0, 0, .2);
+    margin: 16px;
+    padding: 4px 0px;
+}
+.card-content {
+    padding: 4px 16px;
+}
+.card h1  {
+    margin: 8px 0px 16px 0;
+    text-align: center;
+    border-bottom: 5px solid rgba(127, 154, 255, .6);
+    padding-bottom: 5vh;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+html * {
+    font-family: sans-serif;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 16px;
+    box-shadow: 0 1px 2px rgba(17, 17, 17, .2);
+    background-color: rgba(255, 255, 255);
+    color: rgba(17, 17, 17);
+    text-align: center;
+    font-weight: bold;
+}
+footer.dark {
+  background-color: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+footer a {
+  color: grey;
+  font-style: italic;
+}
+
+footer a:hover {
+    opacity: .4;
+}
