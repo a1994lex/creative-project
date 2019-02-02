@@ -2,17 +2,18 @@
 <html>
 <head>
   <link rel="stylesheet" href="../main.css" />
+  <link rel="stylesheet" href="commissions.css" />
   <link rel="shortcut icon" href="../images/fineart.ico" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
-<title>Legrande Studios</title>
+<title>Le grande Studios Inc</title>
 </head>
 <body>
   <div id='canvas'>
 
   <div class="head dark">
     <h1>
-      <a href="../index.html">Legrande Studios</a>
+      <a href="../index.html">Le grande Studios Inc</a>
     </h1>
     <ul class="nav justify-content-end">
       <li class="nav-item">
@@ -29,6 +30,48 @@
       </li>
     </ul>
   </div>
+
+</div>
+
+<div class="commissions">
+<div class="request">
+  <form action="https://formspree.io/redhead_powley@hotmail.com" method="POST">
+      <div class="form-group">
+        <label for='fullName'>Full Name</label>
+        <div id="fullName" class="form-row">
+
+          <div class='col'>
+            <input type="text" name="firstName" class="form-control" placeholder="First" />
+          </div>
+          <div class="col">
+            <input type="text" name="lastName" class="form-control" placeholder="Last" />
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+          <label for="inputEmail">Email</label>
+          <input type="email" id="inputEmail" name="_replyto" class="form-control" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="location">Location</label>
+        <input type="text" id="location" name="location" class="form-control" />
+      </div>
+      <div class='form-group'>
+          <label for="descriptionRequest">Description of Request</label>
+          <textarea name="message" class="form-control" id="descriptionRequest" rows="4"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Send</button>
+  </form>
+
+</div>
+<div class="explanation">
+  <div>
+  Le grande studios does custom artwork, interior murals, rennovations, and more by special commission.
+  If you would like to make a request, please fill out this form and we will respond with
+  an estimate shortly.
+  </div>
+</div>
 
 </div>
 

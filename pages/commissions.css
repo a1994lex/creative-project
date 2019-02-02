@@ -1,0 +1,31 @@
+.commissions {
+  padding: 20vh 10vw;
+  display: flex;
+}
+
+.request {
+  width: 50vw;
+}
+.explanation {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  font-size: 22px;
+  padding: 20px;
+}
+
+.explanation div {
+  align-self: center;
+  vertical-align: center;
+  margin: 0 auto;
+}
+
+.flex-table {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+  width: 100%;
+}
