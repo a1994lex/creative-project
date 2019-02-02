@@ -1,0 +1,12 @@
+.fineart {
+  display: flex;
+  align-self: center;
+  margin: auto;
+}
+
+.price {
+  float: right;
+  font-weight: 600;
+  font-size: 22px;
+
+}
