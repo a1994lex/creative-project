@@ -49,7 +49,14 @@ img {
 
 .inner-container {
   padding: 20vh 10vw;
-  display: flex
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
 }
 
 .content {

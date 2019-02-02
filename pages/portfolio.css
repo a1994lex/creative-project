@@ -1,0 +1,10 @@
+.centralize img {
+  display: flex;
+  margin: 0 auto;
+}
+
+.centralize p {
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+}
