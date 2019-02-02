@@ -1,0 +1,15 @@
+.message {
+  width: 40vw;
+  padding: 20px;
+}
+
+img.fixed-width {
+  max-width: 100%;
+  padding: 12px;
+  height: auto;
+  align-self: center;
+  margin: 0 auto;
+}
+.big-text {
+  font-size: 22px;
+}
